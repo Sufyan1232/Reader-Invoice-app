@@ -1,0 +1,434 @@
+.hdisplay{
+    display:  flex;
+    flex-direction: 1 column;
+    background-color: rgba(0, 0, 0, 0.543);
+    position: fixed;
+}
+.hlink{
+    text-decoration: none;
+    padding: 20px;
+    color: goldenrod;
+}
+.hlink:hover{
+    color: white;
+}
+.hlink1{
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-right: 600px;
+}
+.tre{
+    color: goldenrod;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 60px;
+}
+.alink{
+    text-decoration: none;
+}
+
+.new{
+    display: flex;
+    flex-direction: 1 column;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/009/279/796/original/cartoon-space-banner-with-purple-planet-surface-with-craters-on-night-galaxy-sky-vector.jpg");
+    background-blend-mode: darken;
+    /* background-color: rgb(84, 14, 160); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px;
+}
+.new1{
+    max-width: 600px; 
+    margin-top: 130px;
+}
+.nbtn{
+    background: linear-gradient(90deg, rgb(40, 3, 110), rgb(38, 1, 77));
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}   
+
+.nh1{
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.nh2{
+    color: rgb(179, 179, 179);
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-70px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+    80% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
+}
+.bounce{
+    animation: bounce 1s ease-out 1s 5 none;
+    padding-left: 50px;
+   padding-top: 190px;
+    
+    
+}
+.nimg1{
+   
+    width: 350px;
+    background-color: transparent;
+}
+
+@keyframes moveUp {
+    from{
+        transform: translateY(-400px);
+    }    
+    to{
+        transform: translateY(0);
+    }
+}
+
+.fly{
+    padding-top: 400px;
+    right: 0px;
+    
+    animation: moveUp 3s ease-in 1s infinite reverse none;
+    
+}
+
+.about{
+    display: flex;
+    flex-direction: 1 column;
+    background-color: rgb(229, 228, 234);
+}
+@keyframes bounce1 {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-70px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+    80% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
+}
+.about1{
+    animation: bounce 2s ease-in-out 2s 10 none;
+    width: 650px;
+    padding: 70px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+    cursor:alias;
+}
+.about2{
+    width: 650px;
+    padding: 70px;
+    padding-left: 30px;
+    padding-top: 85px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 150px;
+   
+}
+.about2:hover{
+    border: 10px solid white ;
+    cursor: pointer;
+}
+.ab1{
+    color: rgb(30, 10, 109);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.ab3{
+    color: rgb(30, 10, 109);
+    font-weight: bold;
+    font-size: 13px;
+}
+.about3{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(21, 21, 21);
+    padding-bottom: 30px;
+}
+.ab4{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: white;
+}
+.ab5{
+    color: white;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 10px;
+}
+.ab6{
+    color: white;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 10px;
+}
+.about4{
+    display: flex;
+    flex-direction: 1 column;
+    
+}
+.acard{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid grey;
+    border-radius: 5%;
+    margin: 10px;
+    background: rgba(246, 248, 248, 0.235);
+    filter: saturate(18%) ;
+    margin-left: 750px;
+   
+    width: 300px;
+}
+.ac1{
+    margin-left: -150px;
+    font-size: 20px;
+    color:cyan;
+}
+.ac2{
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.acard1{
+    color: white;
+    background-color: goldenrod;
+    padding: 100px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 5%;
+    margin: 10px;
+    margin-left: 500px;
+    width: 400px;
+   margin-top: -100px;
+}
+.acard2{
+    color: white;
+    width: 300px;
+    padding: 30px;
+ 
+    border: 1px solid grey;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5%;
+    margin: 10px;
+    margin-left: 300px;
+    margin-top: -100px;
+    background: rgba(246, 248, 248, 0.235);
+    filter: saturate(18%) ;
+   
+}
+.ac3{
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.headbtn{
+    border-radius: 50%;
+    padding: 0px;
+    margin-right: 10px;
+
+    
+}
+.headbtn1{
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    padding: 1px;
+    border: 2px solid rgb(214, 214, 214);
+}
+.hbtn1{
+    display: flex;
+    flex-direction: 1 column;
+}
+.about5{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(229, 228, 234);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.ac4{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+.ac5{
+    font-size: 20px;
+    color: rgb(183, 56, 98);
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.a5btn{
+    font-size: 30px;
+    margin-top: 20px;
+    margin: 20px;
+    padding: 30px;
+    
+    border-radius: 50%;
+    border: 10px solid ;
+    /* border-color: -moz-linear-gradient(180deg , blue, red); */
+    border-top-color: rgba(33, 33, 232, 0.608);
+    border-bottom-color: rgba(255, 0, 0, 0.791);
+    background: linear-gradient(180deg, purple, gold);
+    
+}
+.ac6{
+    display: flex;
+    flex-direction: 1 column;
+    text-align: center;
+    justify-content: center;
+   
+}
+.a5h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.ball{
+    animation: bounce 2s ease-in-out 2s 10 reverse none;
+}
+.ball1{
+    animation: bounce 2s ease-in-out 2s 10  none;
+}
+
+.post{
+    background-color: rgb(25, 31, 37);
+    padding: 100px;
+    margin: 100px;
+    width: 700px;
+    border-radius: 40px;
+}
+.post1{
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: 1 column;
+    margin-top: 50px;
+}
+.postdiv{
+    margin: 10px;
+}
+.postimg{
+    margin-top: -50px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0 0  10px #fffdfd;
+        box-shadow: 0 0  40px #2b2a2a;
+    
+}
+.posth{
+    color: rgb(199, 199, 199);
+}
+.posth1{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(12, 37, 85);
+
+}
+.postp{
+    font-size: 11px;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    text-align: justify;
+}
+.postbtn{
+    border-radius: 10px;
+    background-color:cadetblue;
+    border: 0px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 10px;
+
+}
+.postl{
+    font-size: 11px;
+    margin-top: -20px;
+}
+.heart{
+    margin-top: -70px;
+   margin-left: 150px;
+   cursor: pointer;
+  
+}
+.heart:hover{
+    background-color: rgba(243, 159, 14, 0.8);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.trash{
+    border: 0px;
+    background-color: white;
+    padding-left: 110px;
+
+}
+.trash:hover + .delete {
+    display: block;
+    background-color: rgb(219, 219, 219);
+    border: none;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.delete{
+    display: none;
+}

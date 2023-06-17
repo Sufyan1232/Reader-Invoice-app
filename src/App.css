@@ -1,0 +1,206 @@
+.app{
+    background-color: rgb(19, 26, 38);
+    border-radius: 30px;
+    
+
+    
+   
+}
+
+#light .app{
+    background-color: white;
+}
+#dark  .app{
+    background-color: rgb(19, 26, 38);
+}
+
+.row{
+   width: 100px;
+   height: 300px;
+   margin-top: 150px;
+   background-color: rgba(188, 160, 223, 0.502);
+   text-align: center;
+   justify-content: center;
+   padding-top: 20px;
+   position: fixed;
+}
+
+.img44{
+    width: 80px;
+    border-radius: 50%;
+}
+.start{
+    background-color: aliceblue;
+    background: linear-gradient(180deg, rgb(139, 14, 197), rgb(194, 168, 244));
+    padding: 50px 50px;
+}
+.flex{
+    display: flex;
+    flex-direction: 1 column;
+}
+.flexbox{
+    display: flex;
+    flex-direction: 1 column;
+}
+.space{
+    margin: 30px;
+}
+.photo{
+    margin-left: 150px;
+  
+
+}
+.imgphoto{
+    margin-top: 50px;
+    
+}
+.formInput{
+    padding: 10px;
+
+   
+}
+.formee{
+    display:flex;
+    flex-direction: 1 column;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    width: 700px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border:10px solid rgb(209, 167, 53);
+    border-radius: 10px;
+    box-shadow: 10px;
+    
+}
+.fform{
+
+   
+}
+.labelf{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-shadow: none;
+}
+.input{
+    padding: 15px 15px;
+    margin-left: 50px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    
+}
+.form{
+   width: 60%;
+    padding: 100px;
+}
+.btn{
+    text-align: center;
+    margin-left: 100px;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.form2{
+    background-color: antiquewhite;
+    background: linear-gradient(180deg, rgb(139, 14, 197), rgb(194, 168, 244));
+    padding-bottom: 300px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: 1 column;
+   
+}
+.uploadd{
+    background-color: white;
+    width: 800px;
+   margin-left: 100px;
+   padding: 50px;
+   padding-top: 100px;
+   font-size: 17px;
+   text-align: justify;
+   justify-content:end;
+   object-fit: contain;
+}
+.ques{
+    background-color: white;
+    padding-top: 200px;
+    
+}
+
+.label{
+    font-weight: bold;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.upinp{
+    padding: 10px;
+    margin-right: 10px;
+}
+.send{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 5px solid rgb(139, 14, 197);
+    background: none;
+    text-align: center;
+    justify-content: center;
+    margin-left: 300px;
+    
+}
+.send:hover{
+    padding: 5x;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 7px solid rgb(139, 14, 197);
+    background: none;
+    text-align: center;
+    justify-content: center;
+    margin-left: 300px;
+}
+.fill{
+    text-align: center;
+    padding-bottom: 80px;
+    font-family:cursive;
+    font-weight: bold;
+    color: rgb(139, 14, 197) ;
+}
+.fbi{
+    background-image: url("./images/Bus.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.getmargin{
+    
+margin-top: -700px;
+   
+}
+.city{
+   border-radius: 50%;
+   margin-top: -1050px;
+}
+.citi{
+    text-align: center;
+    justify-content: center;
+margin-top: 100px;
+    margin-bottom: 300px;
+}
+.citi1{
+    text-align: center;
+    justify-content: center;
+
+    margin-bottom: 300px;
+}
+.gigh{
+   text-align: center;
+   padding-left: 20px;
+
+   
+}
+.fbold{
+    color: rgb(47, 57, 162);
+    font-size: 25px;
+   
+    font-weight: bold;
+}

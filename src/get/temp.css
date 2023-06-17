@@ -1,0 +1,90 @@
+.insert{
+    width: 87%;
+    /* background-color: wheat; */
+   
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.bimgt{
+    width: 100%;
+    height: 220px;
+
+}
+.compni{
+    color: white;
+    margin-top: -130px;
+    margin-left: 220px;
+    margin-right: 0px;
+    
+}
+.compni1{
+    color: white;
+    margin-left: 420px;
+    margin-top: -30px;
+    margin-right: 1300px;
+   
+
+   
+    text-align: right;
+    justify-content: left;
+    
+    font-size: 30px;
+    width: 200px;
+}
+.clogo{
+    margin-top: 90px;
+    text-align: right;
+    justify-content: right;
+    margin-right: 80px;
+}
+.datet{
+    margin-right: 25px;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.to{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.salaryt{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pt11{
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+.pt12{
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 50px;
+}
+.pt13{
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: -22px;
+}
+.uline{
+    width: 100%;
+   
+    margin-top: 100px;
+    border-top: 1px solid black;
+}
+.fott{
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+  
+}
