@@ -1,6 +1,7 @@
 .app{
     background-color: rgb(19, 26, 38);
     border-radius: 30px;
+    width: 100%;
     
 
     
@@ -33,6 +34,10 @@
     background-color: aliceblue;
     background: linear-gradient(180deg, rgb(139, 14, 197), rgb(194, 168, 244));
     padding: 50px 50px;
+    position: fixed;
+    width: 100%;
+    max-height: 800px;
+    overflow-y: scroll;
 }
 .flex{
     display: flex;

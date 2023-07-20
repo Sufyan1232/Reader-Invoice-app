@@ -13,6 +13,7 @@ import AllInboxIcon from '@mui/icons-material/AllInbox';
 import DrawIcon from '@mui/icons-material/Draw';
 import ManageSearchIcon from '@mui/icons-material/ManageSearch';
 import SettingsIcon from '@mui/icons-material/Settings';
+import { Link } from 'react-router-dom';
 
 
 
@@ -27,16 +28,16 @@ function Leftsidebar() {
 
 
       <div className='alink'>
-      <div className='l'><HomeIcon style={{ color: 'white',  height: 30, width: 30 }}  />   <a href='/' className='link'> Home</a></div>
-      <div className='l'> <AllInboxIcon style={{ color: 'white', height: 30, width: 30 }} /> <a href='/newtemplate'className='link'>Templates</a></div>
-      <div className='l'><DrawIcon  style={{ color: 'white', height: 30, width: 30 }} /> <a href='/upload'className='link'>Write</a></div>
+      <div className='l'><HomeIcon style={{ color: 'white',  height: 30, width: 30 }}  />   <Link to='/' className='link'> Home</Link></div>
+      <div className='l'> <AllInboxIcon style={{ color: 'white', height: 30, width: 30 }} /> <Link to='/newtemplate'className='link'>Templates</Link></div>
+      <div className='l'><DrawIcon  style={{ color: 'white', height: 30, width: 30 }} /> <Link to='/upload'className='link'>Write</Link></div>
      
-      <div className='l'> <ManageSearchIcon  style={{ color: 'white', height: 30, width: 30 }} /> <a href='/newtemplate'className='link'>Discover</a></div>
-      <div className='l'><img src={stamp} width="40px" /> <a href='/'className='link'>Stamps</a></div>
-      <div className='l'> <WidgetsIcon style={{ color: 'white', height: 30, width: 30 }}  /> <a href='/'className='link'>Recommendations</a></div>
+      <div className='l'> <ManageSearchIcon  style={{ color: 'white', height: 30, width: 30 }} /> <Link to='/newtemplate'className='link'>Discover</Link></div>
+      <div className='l'><img src={stamp} width="40px" /> <Link to='/'className='link'>Stamps</Link></div>
+      <div className='l'> <WidgetsIcon style={{ color: 'white', height: 30, width: 30 }}  /> <Link to='/'className='link'>Recommendations</Link></div>
      
       
-     <div className='l'> <SettingsIcon style={{ color: 'white',  height: 30, width: 30 }}  />  <a href='/'className='link'>Settings</a></div>
+     <div className='l'> <SettingsIcon style={{ color: 'white',  height: 30, width: 30 }}  />  <Link to='/'className='link'>Settings</Link></div>
      </div>
      {/* <img src={four} width="30px" /> */}
      {/* <img src={Home} />   */}

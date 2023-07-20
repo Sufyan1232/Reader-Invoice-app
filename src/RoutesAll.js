@@ -32,7 +32,7 @@ function RoutesAll() {
     <BrowserRouter>
         <div>
             <Routes>
-            <Route path="/" element={<App/>} />
+            <Route exact path="/" element={<App/>} />
             <Route path="/newtemplate" element={<Newtemp/>} />    
             <Route path="/write" element={<Upload/>} />
             <Route path="/temp1" element={<Temp1/>} />
@@ -61,7 +61,7 @@ function RoutesAll() {
                 <Route path="/template7" element={<Template7/>} />
                 <Route path="/template8" element={<Template8/>} />
                 <Route path="/template9" element={<Template9/>} />
-                <Route path="/template10" element={<Template10/>} /> */}
+              <Route path="/template10" element={<Template10/>} /> */}
             </Routes>
         </div>    
     </BrowserRouter>

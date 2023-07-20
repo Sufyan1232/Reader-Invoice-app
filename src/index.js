@@ -4,12 +4,13 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import Main from './Main';
+import RoutesAll from './RoutesAll';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-    <Main />
+    <RoutesAll />
 
 );
 
